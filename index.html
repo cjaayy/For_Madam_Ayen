@@ -1,0 +1,137 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="styles.css">
+    <title>For Boss Ayen</title>
+</head>
+<body>
+    <!-- Front Page -->
+    <div class="front-page" id="frontPage">
+        <div class="front-page-pattern"></div>
+        <div class="front-floating-roses" id="frontFloatingRoses"></div>
+        
+        <div class="front-content">
+            <div class="front-rose-container">
+                <div class="large-rose">🌹</div>
+                <div class="surrounding-roses rose-1">🌹</div>
+                <div class="surrounding-roses rose-2">🌹</div>
+                <div class="surrounding-roses rose-3">🌹</div>
+                <div class="surrounding-roses rose-4">🌹</div>
+            </div>
+            
+            <h2 class="front-title">Isang Espesyal na Mensahe</h2>
+            <p class="front-subtitle">Para sa taong pinakamahalaga sa akin</p>
+            
+            <button class="open-letter-btn" onclick="openLetter()">
+                Open My Letter
+                <span class="btn-rose">🌹</span>
+            </button>
+        </div>
+    </div>
+
+    <!-- Letter Page -->
+    <div class="letter-page" id="letterPage">
+        <button class="back-btn" onclick="goBack()">← Back</button>
+        
+        <!-- Audio Controls -->
+        <div class="audio-controls" id="audioControls" style="display: none;">
+            <button class="play-pause-btn" id="playPauseBtn" onclick="togglePlayPause()">
+                <span class="play-icon">▶️</span>
+                <div class="music_note">♪</div>
+            </button>
+            <div class="volume-control">
+                <span class="audio-icon">🔊</span>
+                <input type="range" class="volume-slider" id="volumeSlider" min="0" max="100" value="70" onchange="changeVolume()">
+            </div>
+        </div>
+
+        <!-- Hidden Audio Element -->
+        <audio id="backgroundMusic" loop preload="auto">
+            <source src="audio/Ebe Dancel - Bawat Daan (Lyrics).mp3" type="audio/mpeg">
+            <p>Your browser does not support the audio element.</p>
+        </audio>
+        
+        <div class="background-pattern"></div>
+        <div class="rose-rain" id="roseRain"></div>
+        
+        <div class="letter-container" id="letterContainer">
+            <div class="decorative-border"></div>
+            
+            <div class="header">
+                <div class="rose-decoration rose-left">🌹</div>
+                <div class="rose-decoration rose-right">🌹</div>
+                <div class="rose-decoration rose-bottom-left">🌹</div>
+                <div class="rose-decoration rose-bottom-right">🌹</div>
+                
+                <h1>Liham ng Pagmamahal</h1>
+                <div class="subtitle">Isang Mensahe Mula sa Puso</div>
+            </div>
+            
+            <div class="content">
+                <div class="floating-roses rose-1-letter">🌹</div>
+                <div class="floating-roses rose-2-letter">🌹</div>
+                <div class="floating-roses rose-3-letter">🌹</div>
+                
+                <div class="date-line">June 14, 2025</div>
+                
+                <div class="greeting">Minamahal Kong Sinta, Aking Reyna, Aking Pahinga, Aking Kanlungan,</div>
+                <p>Hello, love-love ko.
+Nasabi ko na siguro halos lahat ng puwedeng sabihin. Ginagawa ko rin halos lahat ng puwedeng gawin para maiparamdam sa’yo kung gaano kita kamahal. At higit pa roon, gusto ko lang ipaalam na seryoso ako sa’yo, at mabuti ang intensyon ko. Wala akong ibang balak kundi ang patunayan na ako’y karapat-dapat mahalin at pagkatiwalaan mo.</p>
+
+<p>
+Araw-araw, na-aappreciate kita. Hindi lang kapag masaya tayo, kundi pati sa mga araw na pagod, tahimik, o may kaunting tampuhan. Sa bawat araw na dumadaan, mas lalo kitang minamahal. At habang tumatagal, mas lalong lumalalim ang nararamdaman ko para sa’yo. Ikaw ang babaeng pinangarap ko, pero higit ka pa sa lahat ng ‘yon.</p>
+
+<p>
+Alam kong hindi madali ang lahat ng ito. Marami pa tayong pagdadaanan. Dadating ang mga boring phase, mga araw ng pangungulila, mga oras ng hindi pagkakaintindihan, at mga pagsubok na magtatangka sa atin. Pero ang mahalaga sa akin ay ito — sana sa lahat ng oras, ikaw pa rin ang taong gusto kong makasama at kapiling. Sana sa mga araw ng pagod, sa mga panahong gusto lang natin mapag-isa, piliin pa rin nating bumalik sa isa’t isa.</p>
+
+<p>
+Tatandaan mo, love, mahal na mahal kita. Hindi lang dahil sa mga magaganda mong katangian, kundi pati na rin sa mga bahagi mong hindi mo pinagmamalaki. Minahal kita kung ano ka, kung sino ka, at kung anong meron ka — at wala akong balak baguhin ‘yon. Sa lahat ng babae sa mundo, ikaw ang pinakamaganda sa paningin ko, sa loob at labas.</p>
+
+<p>
+Hindi lang plano ang meron ako para sa’tin. Hindi ito basta daydream lang. Ginawa ko na itong goal. Tinutupad ko ito paunti-unti, araw-araw, sa lahat ng simpleng bagay na kaya kong gawin para mapatunayan na ikaw ang gusto kong makasama habangbuhay. Walang hanggang pasasalamat ko sa Diyos dahil ikaw ang dumating sa buhay ko — isang taong may malasakit, pang-unawa, tapang, at pusong marunong magmahal nang totoo.</p>
+
+<p>Salamat sa lahat ng nagawa mo para sa’kin — sa mga pag-aalaga, pag-intindi, at pagtanggap mo sa akin kahit marami pa akong kailangang ayusin sa sarili ko. Sa bawat lambing, paalala, sa bawat simpleng “ingat,” sa bawat “kumain ka na?” — lahat ‘yan mahalaga sa’kin. Alam mo bang ang laki ng impact mo sa buhay ko? Parang binigyan mo ako ng bagong lakas para mag-aral, magsikap, at maniwala ulit sa sarili ko.</p>
+
+<p>
+Ikaw ang dahilan kung bakit gusto kong mas gumaling sa buhay, mas maging maayos, mas maging matatag. Ikaw ang dahilan kung bakit gusto kong tuparin ang mga pangarap ko — kasi gusto kong sa dulo ng lahat ng ‘to, kasama ka.</p>
+
+<p>
+Minsan hindi tayo nagkakaintindihan, at alam ko ‘yan. Minsan may tampuhan, may lungkot, may tanong na hindi agad nasasagot. Pero ang mahalaga sa’kin, kahit ganun — nananatili ka. At ganun din ako sa’yo. Sana kapag dumating ang mga araw na parang hindi tayo okay, huwag agad sumuko. Bigyan natin ng oras ang isa’t isa. Pagpahingahin natin ang damdamin, pero huwag bibitaw. Ayusin natin kapag kaya na. Huwag natin hayaang mawala ang mahalaga sa’tin dahil lang sa pansamantalang damdamin.</p>
+
+<p>
+Ikaw ang gusto kong makasama hindi lang sa masasayang araw, kundi lalo na sa mga mahirap. Sa mga panahong walang-wala, sa mga araw na pagod na pagod na, sa mga oras na hindi natin alam kung saan papunta ang lahat. Ikaw ang gusto kong kasama sa biglaan, sa pangarap, sa routine, at sa lahat ng hindi inaasahan.</p>
+
+</p>
+Hindi lang kita mahal. Pinapanindigan kita. Pinaglalaban kita. Pinipili kita — araw-araw.<p>
+
+<p>Alam kong hindi ako perpekto. May mga kahinaan ako. Minsan may pagkukulang ako. Pero pangako ko, bawat araw ay gagawin kong pagkakataon para bumawi, para iparamdam sa’yo kung gaano ka kahalaga sa akin.</p>
+
+<p>Pangarap kitang makasama habangbuhay. Gusto kong dumating ang araw na hawak ko ang kamay mo habang sabay nating pinapanood ang mga anak natin. Gusto kong ikaw ang kaharap ko sa altar. Gusto kong ikaw ang makakasama ko habang nagkakape sa umaga, habang nilalabanan ang lamig ng gabi, habang tumatawa sa simpleng bagay. Gusto kong ikaw ang kasama ko habang tumatanda, habang lumilipas ang oras, hanggang sa huli kong hininga.</p>
+
+<p>Minsan naiisip ko, sa dinami-dami ng tao sa mundo, bakit ako pa ang pinili mo? Pero hindi ko na tanongin ‘yon. Ang mahalaga, nandito ka. At habang nandito ka, gagawin ko ang lahat para manatili ka — hindi dahil kailangan, kundi dahil gusto. Dahil mahal kita. At ang pagmamahal ko, hindi pang-sandali lang. Panghabambuhay ‘to.</p>
+
+<p>Kapag dumating ang oras na pareho tayong pagod, sabay tayong magpahinga. Kapag dumating ang oras na parang nagkakalabuan tayo, mag-usap tayo. Kapag naramdaman mong nawawala ka, hahanapin kita. Kapag naramdaman kong natatakot ka, yayakapin kita. Kapag umiyak ka, pahihiramin kita ng lakas ko. Kasi ganun kita kamahal — hindi kita iiwan sa kahit anong laban.</p>
+
+<p>Pangako, sa bawat umaga, ikaw ang nasa dasal ko. Sa bawat gabi, ikaw ang huling iniisip ko. Pangako, aalagaan ko ang puso mong pinagkatiwala mo sa’kin. Pangako, hindi ko hahayaang masayang ang pagkakataon na ibinigay sa’tin ni Lord.</p>
+
+<p>Mahal na mahal kita. Mas mahal pa bukas. Mas mahal sa susunod na taon. Mas mahal habangbuhay.</p>
+
+<p>Ikaw lang. Ikaw pa rin. Ikaw palagi.</p>
+                <div class="letter-body">
+                </div>
+                
+                <div class="signature-section">
+                    <div class="signature-line"></div>
+                    <div class="signature">Magpakailanman sa’yo,</div>
+                    <div style="color: #7b1fa2; font-style: italic; font-size: 1.3rem; font-weight: bold;">CJay</div>
+                    <div style="color: #9c27b0; font-style: italic; margin-top: 10px; font-size: 0.9rem;">❤️ Buong puso at wagas na pag-ibig ❤️</div>
+                </div>
+            </div>
+        </div>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
